@@ -1,12 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
+import Header from "../Header";
+import MainContainer from "../../Container/MainContainer";
 
 const Main = () => {
 
     return(
 
         <Container>
-            Main
+            <Header />
+            <MainContainer/>
         </Container>
 
     )
@@ -14,8 +17,9 @@ const Main = () => {
 }
 
 const Container = styled.div`
-  background: rgba(249,249,249);
-  flex: 1;
+  background: #F7EFE5;
+  height: 100%;
+  width: 100%;
 `
 
 export default Main;
